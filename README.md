@@ -166,12 +166,6 @@ Here you can see the visual changes to the configuration:
 
 ## keymap corne
 [![keymap-drawer-demo-corne](keymap-drawer/corne.svg)](https://www.youtube.com/c/mctechnology17)
-## keymap sofle
-[![keymap-drawer-demo-sofle](keymap-drawer/sofle.svg)](https://www.youtube.com/c/mctechnology17)
-## keymap splitkb_aurora_sofle
-[![keymap-drawer-demo-splitkb_aurora_sofle](keymap-drawer/splitkb_aurora_sofle.svg)](https://www.youtube.com/c/mctechnology17)
-## keymap lily58
-[![keymap-drawer-demo-lily58](keymap-drawer/lily58.svg)](https://www.youtube.com/c/mctechnology17)
 
 If you want to customize this image with shapes/colors/etc. You can see these references:
 [^1] [^2] [^3]
