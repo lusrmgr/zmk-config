@@ -71,9 +71,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Hyper+↓
   - Hyper+UP ARROW
-  - PREV
+  - PREVIOUS
   - PLAY PAUSE
-  - NEXT
+  - ⏭️
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
