@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   BAS:
-  - ↹
+  - Esc
   - Q
   - W
   - E
@@ -41,8 +41,8 @@ layers:
   - ↹
   - {t: ␣, h: LOW}
   - {t: ENTER, h: RAI}
-  - RAI
-  - $$mdi:apple-keyboard-option$$
+  - {t: BACKSPACE, h: Ctl+LEFT GUI}
+  - {t: Gui+Sft+␣, h: '$$mdi:apple-keyboard-option$$'}
   LOW:
   - ↹
   - '1'
