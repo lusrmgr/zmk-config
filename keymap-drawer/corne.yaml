@@ -57,11 +57,11 @@ layers:
   - '0'
   - $$mdi:backspace-outline$$
   - {t: ▽, type: trans}
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ←
   - ↓
   - ↑
@@ -98,7 +98,7 @@ layers:
   - KP MULTIPLY
   - (
   - )
-  - $$mdi:backspace-outline$$
+  - DELETE
   - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,12 +130,12 @@ layers:
   - '&studio_unlock'
   - $$mdi:apple-keyboard-option$$
   '3':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
