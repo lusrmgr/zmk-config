@@ -57,12 +57,12 @@ include:
   ### CORNE START ###
     ### nice_view START ###
     # nice_nano_v2
-  - board: nice_nano
+  - board: nice_nano_v2
     shield: corne_left nice_view_adapter nice_view
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Nice_Corne\"
     artifact-name: nice_corne_left
     snippet: studio-rpc-usb-uart
-  - board: nice_nano
+  - board: nice_nano_v2
     shield: corne_right nice_view_adapter nice_view
     artifact-name: nice_corne_right
 
@@ -277,7 +277,7 @@ include:
   # ### SPLITKB AURORA SOFLE END ###
 
   ### SETTINGS_RESET START ###
-  - board: nice_nano
+  - board: nice_nano_v2
     shield: settings_reset
     artifact-name: nice_settings_reset
   # - board: seeeduino_xiao_ble
