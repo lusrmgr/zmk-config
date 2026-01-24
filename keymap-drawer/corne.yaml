@@ -215,3 +215,9 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+combos:
+- p: [29, 28]
+  k: Gui+V
+  l: [BAS]
+- p: [13, 14]
+  k: '&dri_email'

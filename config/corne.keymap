@@ -14,6 +14,30 @@
 &led_strip { chain-length = <27>; };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <29 28>;
+            layers = <0>;
+        };
+
+        email {
+            bindings = <&dri_email>;
+            key-positions = <13 14>;
+        };
+    };
+
+    macros {
+        dri_email: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp A &kp U &kp D &kp E &kp T &kp AT &kp D &kp A &kp T &kp A &kp R &kp E &kp M &kp O &kp T &kp E &kp DOT &kp C &kp O &kp M>;
+            label = "NEW_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
