@@ -13,6 +13,8 @@
 
 &led_strip { chain-length = <27>; };
 
+&mt { tapping-term-ms = <300>; };
+
 / {
     combos {
         compatible = "zmk,combos";
