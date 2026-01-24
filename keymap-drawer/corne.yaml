@@ -56,7 +56,7 @@ layers:
   - '9'
   - '0'
   - $$mdi:backspace-outline$$
-  - {t: ▽, type: trans}
+  - Hyper+UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -68,9 +68,9 @@ layers:
   - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - Hyper+↓
-  - Hyper+UP ARROW
+  - Hyper+DOWN ARROW
+  - Vol Down
+  - VOLUME UP
   - PREVIOUS
   - PLAY PAUSE
   - ⏭️
@@ -221,3 +221,6 @@ combos:
   l: [BAS]
 - p: [13, 14]
   k: '&dri_email'
+- p: [28, 27]
+  k: Gui+C
+  l: [BAS]
