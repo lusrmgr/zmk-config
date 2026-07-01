@@ -9,6 +9,9 @@
 #include <layouts/foostan/corne/5column.dtsi>
 #include <layouts/foostan/corne/6column.dtsi>
 
+bt_name = "Nyx";
+
+
 &foostan_corne_6col_layout {
     transform = <&default_transform>;
 };
